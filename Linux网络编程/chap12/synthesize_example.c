@@ -137,7 +137,7 @@ int main(int argc, char *argv[])
         sc = accept(s, (struct sockaddr *)&client_addr, &sin_size);
         if (sc == -1)
         {
-            perror("接收连接失败!\n");
+            perror("接收连接失败!");
             continue;
         }
 
